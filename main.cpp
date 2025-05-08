@@ -17,27 +17,27 @@ int main()
     float promedio; // Declaro la quinta variable
     
     cout << "este programa suma 3 numeros y despues hace el proemdio e indica si el alumno aprobo o no" <<endl; // le indica al usuario lo que hace el programa 
-    cout << "Ingrese el primer número: " <<endl;
+    cout << "Ingrese el primer número: " <<endl; // muestra un texto en pantalla para indicarle al usuario lo que tiene que hacer
     cin >> num1; // guarda el valor dado por el usuario en la variable num1
-    cout << "Ingrese el segundo número: " <<endl;
+    cout << "Ingrese el segundo número: " <<endl; // muestra un texto en pantalla para indicarle al usuario lo que tiene que hacer
     cin >> num2; // guarda el valor dado por el usuario en la variable num2
-    cout << "Ingrese el tercer número: " <<endl;
+    cout << "Ingrese el tercer número: " <<endl; // muestra un texto en pantalla para indicarle al usuario lo que tiene que hacer
     cin >> num3; // guarda el valor dado por el usuario en la variable num3
 
     suma = num1 + num2 + num3; // Calcula la suma de las tres variables y guarda el resultado en la variable suma
 
     promedio = suma / 3; // Calcula el promedio y guarda el resultado en la variable promedio
-    if (promedio >= 7 )
+    if (promedio >= 7 ) // pone una condicion que si se ejecuta
     {
-        cout << "TEA";
+        cout << "TEA"; // va a imprimir TEA
     }
-    else if (promedio < 7 and promedio >= 4 )
+    else if (promedio < 7 and promedio >= 4 ) //si no se cumplio la anterior condicion pero esta si lo que pasa
     {
-       cout << "TEP";
+       cout << "TEP"; // es que en pantalla se va a mostrar la palabra TEP
     }
-    else
+    else // si no se  cumple ninguna de las anteriores condiciones se va a ejecutar el siguinte cout
     {
-        cout << "TED";
+        cout << "TED"; // que va a imprimir TED
     }
     return 0;
 }
